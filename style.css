@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 80px;
+    margin-top: 48px;
+}
+
+.menu-ul {
+    display: flex;
+}
+
+.menu-ul li {
+    margin: 0px 16px;
+    padding: 2px;
+    list-style: none;
+}
+
+.fa-solid {
+    font-size: xx-large;
+}
