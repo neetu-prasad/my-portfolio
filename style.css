@@ -9,6 +9,12 @@ html, body {
     height: 100%;
 }
 
+body{
+    border: 4px solid black;
+    border-radius: 2%;
+    box-sizing: border-box;
+}
+
 .fa-solid {
     font-size: xx-large;
 }
@@ -49,24 +55,21 @@ html, body {
     padding: 4px 80px;
 }
 
-.matter{
-    margin-right: 10px;
-}
-
 .name-font{
     font-size: 4em;
 }
 
-.about{
+.info{
     font-size: 2em;
 }
 
-.image-one {
+.profile-photo {
     height: 300px;
     width: 280px;
     background-image: url("https://i.pinimg.com/originals/87/2a/e3/872ae3358323ef1e40ec95ab12775626.jpg");
     background-size: cover;
     background-position: center;
+    margin-left: 10px;
 }
 
 .social-media-container i{
@@ -75,12 +78,4 @@ html, body {
     
 }
 
-.email-container{
-    
-}
 
-body{
-    border: 4px solid black;
-    border-radius: 2%;
-    box-sizing: border-box;
-}
