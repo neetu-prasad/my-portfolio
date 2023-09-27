@@ -1,0 +1,81 @@
+.skills_title {
+    padding: 8px 80px;
+}
+
+.skills_title h1 {
+    text-transform: uppercase;
+}
+
+.skills_content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+    padding: 10px 80px;
+}
+
+.skills_para_container {
+    width: 55%;
+}
+
+.skill_para {
+    display: flex;
+}
+
+.skill_para_2,
+.skill_para_3 {
+    margin-top: 24px;
+}
+
+.skill_icon {
+    padding: 8px;
+}
+
+.skill_progress_bar_container {
+    width: 45%;
+    line-height: 1.5;
+
+}
+
+.skill_progress_bar {
+    margin-top: 24px;
+    border: solid 1px;
+    display: flex;
+}
+
+.skill_title {
+    width: 20%;
+    padding: 2px 4px;
+}
+
+.skill_bar {
+    width: 80%;
+    text-align: end;
+    padding: 2px 4px;
+}
+
+/* skill 1 */
+.skill_1_title {
+    background: rgb(0, 138, 0);
+}
+
+.skill_1_bar {
+    background: linear-gradient(to right, rgb(10, 209, 10) 80%, white 20%);
+    position: relative;
+    animation-name: progresswidth;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    text-align: end;
+}
+
+@keyframes progresswidth {
+    from {
+        width: 1%;
+    }
+    to {
+        width: 80%;
+    }
+}
+/* skill 1 end */
