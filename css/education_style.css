@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.qualification-card-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 80px;
+    height: 70%;
+    margin-top: 12px;
+}
+
+.education-title {
+    text-transform: uppercase;
+    padding: 10px 80px;
+}
+
+.qualification-card {
+    margin: 0px 16px;
+    border-radius: 0.2rem;
+    box-shadow: 1px 1px 5px 5px rgb(139, 140, 141);
+    padding: 40px 40px;
+}
+
+
+.place-year {
+    margin-top: 24px;
+}
+
+.place-year p {
+    font-family: monospace;
+    color: rgb(158, 157, 157);
+}
+
+.details {
+    margin-top: 24px;
+}
+
+.details li {
+    font-size: small;
+    padding: 8px 0px;
+}
+
+.details li::marker {
+    color: rgb(255, 161, 239);
+    font-size: medium;
+}
