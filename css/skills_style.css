@@ -51,20 +51,11 @@
     width: 80%;
     text-align: end;
     padding: 2px 4px;
-}
-
-/* skill 1 */
-.skill_1_title {
-    background: rgb(0, 138, 0);
-}
-
-.skill_1_bar {
-    background: linear-gradient(to right, rgb(10, 209, 10) 80%, white 20%);
     position: relative;
     animation-name: progresswidth;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-timing-function: linear;
-    animation-delay: 2s;
+    animation-delay: 1s;
     animation-iteration-count: 1;
     animation-direction: normal;
     text-align: end;
@@ -74,8 +65,110 @@
     from {
         width: 1%;
     }
+
     to {
         width: 80%;
     }
 }
+
+/* skill 1 */
+.skill_1_title {
+    background: rgb(1, 126, 17);
+}
+
+.skill_1_bar {
+    background: linear-gradient( 
+        to right,
+        rgb(2, 250, 2) 0%,
+        rgb(2, 250, 2) 80%,
+        white 80%,
+        white 100%
+      );
+}
+
 /* skill 1 end */
+
+/* skill 2 */
+.skill_2_title {
+    background: rgb(238, 137, 42);
+}
+
+.skill_2_bar {
+    background: linear-gradient( 
+        to right,
+        rgb(241, 191, 115) 0%,
+        rgb(241, 191, 115) 85%,
+        white 85%,
+        white 100%
+      );
+}
+
+/* skill 2 end */
+/* skill 3 */
+.skill_3_title {
+    background: rgb(50, 61, 216);
+}
+
+.skill_3_bar {
+    background: linear-gradient( 
+        to right,
+        rgb(151, 133, 230) 0%,
+        rgb(151, 133, 230) 20%,
+        white 20%,
+        white 100%
+      );
+}
+
+/* skill 3 end */
+
+/* skill 4 */
+.skill_4_title {
+    background: rgb(240, 236, 33);
+}
+
+.skill_4_bar {
+    background: linear-gradient( 
+        to right,
+        rgb(220, 230, 134) 0%,
+        rgb(220, 230, 134) 0%,
+        white 0%,
+        white 100%
+      );
+}
+
+/* skill 4 end */
+
+/* skill 5 */
+.skill_5_title {
+    background: rgb(228, 42, 197);
+}
+
+.skill_5_bar {
+    background: linear-gradient( 
+        to right,
+        rgb(223, 128, 207) 0%,
+        rgb(223, 128, 207) 0%,
+        white 0%,
+        white 100%
+      );
+}
+
+/* skill 5 end */
+
+/* skill 6 */
+.skill_6_title {
+    background: rgb(219, 46, 46);
+}
+
+.skill_6_bar {
+    /* background: to right, rgb(238, 93, 93) 40%, white 60%; */
+    background: linear-gradient( 
+        to right,
+        rgb(243, 162, 162) 0%,
+        rgb(243, 162, 162) 50%,
+        white 50%,
+        white 100%
+      );
+}
+
+/* skill 6 end */
