@@ -1,0 +1,197 @@
+.skills_title {
+    padding: 8px 80px;
+}
+
+.skills_title h1 {
+    text-transform: uppercase;
+}
+
+.skills_content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+    padding: 10px 80px;
+    
+}
+
+.skills_para_container {
+    width: 55%;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.skill_para {
+    display: flex;
+    padding-right: 10px;
+}
+
+.skill_para_1{
+    margin-top: 10px;
+}
+
+.skill_para_2,
+.skill_para_3 {
+    margin-top: 20px;
+}
+
+.skill_icon {
+    padding: 8px;
+}
+
+.skill_progress_bar_container {
+    width: 45%;
+    line-height: 1.5;
+    padding-right: 10px;
+
+}
+
+.skill_progress_bar {
+    margin-top: 24px;
+    /* border: solid 1px; */
+    display: flex;
+}
+
+.skill_title {
+    width: 20%;
+    padding: 2px 4px;
+}
+
+.skill_bar {
+    width: 80%;
+    text-align: end;
+    padding: 2px 4px;
+    position: relative;
+    animation-name: progresswidth;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    text-align: end;
+}
+
+@keyframes progresswidth {
+    from {
+        width: 1%;
+    }
+
+    to {
+        width: 80%;
+    }
+}
+
+/* skill 1 */
+.skill_1_title {
+    background: rgb(0, 235, 252);
+}
+
+.skill_1_bar {
+    background: linear-gradient( 
+        to right,
+        rgb(158, 241, 247) 0%,
+        rgb(158, 241, 247) 80%,
+        white 80%,
+        white 100%
+      );
+}
+
+/* skill 1 end */
+
+/* skill 2 */
+.skill_2_title {
+    background: rgb(253, 124, 4);
+}
+
+.skill_2_bar {
+    background: linear-gradient( 
+        to right,
+        rgb(250, 175, 106) 0%,
+        rgb(250, 175, 106)  85%,
+        white 85%,
+        white 100%
+      );
+}
+
+/* skill 2 end */
+/* skill 3 */
+.skill_3_title {
+    background: rgb(50, 61, 216);
+}
+
+.skill_3_bar {
+    background: linear-gradient( 
+        to right,
+        rgb(107, 113, 201) 0%,
+        rgb(107, 113, 201) 20%,
+        white 20%,
+        white 100%
+      );
+}
+
+/* skill 3 end */
+
+/* skill 4 */
+.skill_4_title {
+    background: rgb(15, 247, 84);
+}
+
+.skill_4_bar {
+    background: linear-gradient( 
+        to right,
+        rgb(109, 247, 150) 0%,
+        rgb(109, 247, 150) 0%,
+        white 0%,
+        white 100%
+      );
+}
+
+/* skill 4 end */
+
+/* skill 5 */
+.skill_5_title {
+    background: rgb(228, 42, 197);
+}
+
+.skill_5_bar {
+    background: linear-gradient( 
+        to right,
+        rgb(223, 128, 207) 0%,
+        rgb(223, 128, 207) 0%,
+        white 0%,
+        white 100%
+      );
+}
+
+/* skill 5 end */
+
+/* skill 6 */
+.skill_6_title {
+    background: rgb(252, 46, 46);
+}
+
+.skill_6_bar {
+    /* background: to right, rgb(238, 93, 93) 40%, white 60%; */
+    background: linear-gradient( 
+        to right,
+        rgb(247, 108, 108) 0%,
+        rgb(247, 108, 108) 50%,
+        white 50%,
+        white 100%
+      );
+}
+
+/* skill 6 end */
+
+p {
+    /* font-family: monospace; */
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.design, .technology, .soft_skills{
+    /* margin-top: 10px; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
