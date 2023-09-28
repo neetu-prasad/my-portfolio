@@ -11,19 +11,27 @@
     justify-content: space-between;
     margin-top: 12px;
     padding: 10px 80px;
+    
 }
 
 .skills_para_container {
     width: 55%;
+    margin-right: 20px;
+    padding: 10px;
 }
 
 .skill_para {
     display: flex;
+    padding-right: 10px;
+}
+
+.skill_para_1{
+    margin-top: 10px;
 }
 
 .skill_para_2,
 .skill_para_3 {
-    margin-top: 24px;
+    margin-top: 20px;
 }
 
 .skill_icon {
@@ -33,12 +41,13 @@
 .skill_progress_bar_container {
     width: 45%;
     line-height: 1.5;
+    padding-right: 10px;
 
 }
 
 .skill_progress_bar {
     margin-top: 24px;
-    border: solid 1px;
+    /* border: solid 1px; */
     display: flex;
 }
 
@@ -73,14 +82,14 @@
 
 /* skill 1 */
 .skill_1_title {
-    background: rgb(1, 126, 17);
+    background: rgb(0, 235, 252);
 }
 
 .skill_1_bar {
     background: linear-gradient( 
         to right,
-        rgb(2, 250, 2) 0%,
-        rgb(2, 250, 2) 80%,
+        rgb(158, 241, 247) 0%,
+        rgb(158, 241, 247) 80%,
         white 80%,
         white 100%
       );
@@ -90,14 +99,14 @@
 
 /* skill 2 */
 .skill_2_title {
-    background: rgb(238, 137, 42);
+    background: rgb(253, 124, 4);
 }
 
 .skill_2_bar {
     background: linear-gradient( 
         to right,
-        rgb(241, 191, 115) 0%,
-        rgb(241, 191, 115) 85%,
+        rgb(250, 175, 106) 0%,
+        rgb(250, 175, 106)  85%,
         white 85%,
         white 100%
       );
@@ -112,8 +121,8 @@
 .skill_3_bar {
     background: linear-gradient( 
         to right,
-        rgb(151, 133, 230) 0%,
-        rgb(151, 133, 230) 20%,
+        rgb(107, 113, 201) 0%,
+        rgb(107, 113, 201) 20%,
         white 20%,
         white 100%
       );
@@ -123,14 +132,14 @@
 
 /* skill 4 */
 .skill_4_title {
-    background: rgb(240, 236, 33);
+    background: rgb(15, 247, 84);
 }
 
 .skill_4_bar {
     background: linear-gradient( 
         to right,
-        rgb(220, 230, 134) 0%,
-        rgb(220, 230, 134) 0%,
+        rgb(109, 247, 150) 0%,
+        rgb(109, 247, 150) 0%,
         white 0%,
         white 100%
       );
@@ -157,18 +166,32 @@
 
 /* skill 6 */
 .skill_6_title {
-    background: rgb(219, 46, 46);
+    background: rgb(252, 46, 46);
 }
 
 .skill_6_bar {
     /* background: to right, rgb(238, 93, 93) 40%, white 60%; */
     background: linear-gradient( 
         to right,
-        rgb(243, 162, 162) 0%,
-        rgb(243, 162, 162) 50%,
+        rgb(247, 108, 108) 0%,
+        rgb(247, 108, 108) 50%,
         white 50%,
         white 100%
       );
 }
 
 /* skill 6 end */
+
+p {
+    /* font-family: monospace; */
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.design, .technology, .soft_skills{
+    /* margin-top: 10px; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
