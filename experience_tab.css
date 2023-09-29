@@ -1,0 +1,45 @@
+.experience_container{
+    padding: 4px 80px;
+}
+
+.experience_container{
+    display: flex;
+    height: 50%;
+    padding: 4px 80px;
+    margin-top: 12px;
+}
+
+.part1{
+    width: 50%;
+    height: 60vh;
+    border-right: 2px solid green;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.part2{
+    width: 50%;
+    height: 60vh;
+    border-left: 2px solid green;
+    display: flex;
+    justify-content: flex-start;
+}
+.left_side_part1{
+    
+}
+
+.section_1, .section_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.crossline1_1{
+    display: flex;
+    background-color: green;
+    width: 80px;
+    height: 2px;
+    jus
+    
+}
