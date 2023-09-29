@@ -1,37 +1,31 @@
-.experience_container{
+.experience_title{
     padding: 4px 80px;
+
 }
 
 .experience_container{
     display: flex;
     height: 50%;
     padding: 4px 80px;
-    margin-top: 12px;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
 }
 
 .part1{
-    width: 50%;
+    width: 30%;
     height: 60vh;
     border-right: 2px solid green;
     display: flex;
     justify-content: flex-end;
 }
 
-.part2{
-    width: 50%;
-    height: 60vh;
-    border-left: 2px solid green;
-    display: flex;
-    justify-content: flex-start;
-}
-.left_side_part1{
-    
-}
 
 .section_1, .section_2{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 50%;
 }
 
 
@@ -40,6 +34,26 @@
     background-color: green;
     width: 80px;
     height: 2px;
-    jus
     
+}
+
+.part2{
+    width: 30%;
+    height: 60vh;
+    border-left: 2px solid green;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.crossline2_2{
+    display: flex;
+    background-color: green;
+    width: 80px;
+    height: 2px;
+    
+}
+
+.matter2_1, .matter2_2{
+    padding-left: 20px;
 }
