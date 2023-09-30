@@ -1,33 +1,77 @@
-.experience_title{
+.experience_title {
     padding: 4px 80px;
+
 }
-.experience_time_line_container{
+
+.experience_time_line_container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 75%;
-}
-.experience_time_line{
-  background-color: green;
-  width: 85%;
-  height: 4px;  
-}
-.experience_container{
-    display: flex;
-}
-.vertical_line{
-    background-color: green;
-    height: 93px;
-    width: 2px;
-}
-.experience_details{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0 100px;
-}
-.experience{
-    text-align: center;
+    padding: 24px 4px;
+    overflow-y: visible;
 }
 
+.experience_row {
+    display: flex;
+    width: 90%;
+    min-height: 48px;
+}
+
+.experience_container {
+    width: 50%;
+    display: flex;
+}
+
+.left_experience_container {
+    justify-content: end;
+}
+
+.vertical_line_container {
+    width: 2px;
+    background-color: green;
+}
+
+.right_experience_container {}
+
+.crossline {
+    background-color: green;
+    width: 48px;
+    height: 2px;
+    margin-top: 16px;
+}
+
+.experience_matter {
+    padding: 8px;
+}
+
+.left_experience_matter {
+    text-align: end;
+}
+
+.time_range {
+    font-weight: bold;
+    font-size: small;
+}
+
+.designation {
+    margin-top: 24px;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.organization {
+    font-weight: bold;
+    font-size: small;
+}
+
+.work_ul {
+    margin-top: 24px;
+    margin-left: 24px;
+    text-align: start;
+    line-height: 1.5;
+}
+
+.work_ul li {
+    font-size: small;
+}
