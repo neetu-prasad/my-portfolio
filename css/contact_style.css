@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contact_title {
+    text-transform: uppercase;
+    padding: 10px 80px;
+}
+
+.contact_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50%;
+    width: 60%;
+    margin: 10px 250px;
+    border-radius: 0.2rem;
+    box-shadow: 1px 1px 5px 5px rgb(139, 140, 141);
+    padding: 40px 40px;
+}
+
+.input_name, .input_email, .message, .button{
+    margin-bottom: 20px;
+    /* height: 24%; */
+    font-weight: bold;
+}
+
+input, textarea{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+.button{
+    display: flex;
+    justify-content: right;
+}
