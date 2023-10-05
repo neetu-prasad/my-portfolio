@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Education-tab</title>
+    <title>Contact-details</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/contact_style.css">
@@ -19,7 +19,7 @@
             <div class="menu-buttons-container">
                 <ul class="menu-ul">
                     <li><a href="http://127.0.0.1:5500/index.html">Home</a></li>
-                    <li><a href="#">Education</a></li>
+                    <li><a href="http://127.0.0.1:5500/education.html">Education</a></li>
                     <li><a href="http://127.0.0.1:5500/skills.html">Skills</a></li>
                     <li><a href="http://127.0.0.1:5500/experience.html">Experience</a></li>
                     <li><a href="#">Contact</a></li>
@@ -27,36 +27,69 @@
             </div>
         </nav>
         <div class="contact_title">
-            <h1>contact</h1>
-            <p>Call or write anytime</p>
+            <h1>Contact</h1>
         </div>
-        <div class="contact_box">
-            <!-- <div class="details"> -->
-            <form>
-            <div class="input_name">
-                <label for="">Name :</label><br> <br>
-                <input type="text" placeholder="">
+        <div class="contact_container">
+            <div class="contact_form_container">
+                <h2>Call or write anytime</h2>
+                <form class="contact_form">
+                    <div class="input_group">
+                        <label for="name">Name:</label>
+                        <input type="text" placeholder="First and last name">
+                    </div>
+                    <div class="input_group">
+                        <label for="phone">Phone:</label>
+                        <input type="text" placeholder="Contact number">
+                    </div>
+                    <div class="input_group">
+                        <label for="email">Email :</label>
+                        <input type="text" placeholder="e.g: xyz@gmail.com">
+                    </div>
+                    <div class="input_group">
+                        <label>Message:</label>
+                        <textarea rows="3" placeholder="Your message"></textarea>
+                    </div>
+                    <div class="submit_button_container">
+                        <button class="submit_button">Send Message</button>
+                    </div>
+                </form>
             </div>
-            <div class="input_email">
-                <label for="">Email Address:</label><br> <br>
-                <input type="text" placeholder="">
+            <div class="contact_details_contaner">
+                <h2>Reach me</h2>
+                <div class="contact_details">
+                    <div class="contact">
+                        <p class="contact_type">Email:</p>
+                        <p>neetumehta510@gmail.com</p>
+                    </div>
+                    <div class="contact">
+                        <p class="contact_type">Phone:</p>
+                        <p>+91-9700108077</p>
+                    </div>
+                    <div class="contact">
+                        <p class="contact_type">Address:</p>
+                        <p>Bengaluru, Karnataka, 560075</p>
+                    </div>
+                </table>
+
             </div>
-            <div class="message">
-                <label for="message">Message: </label><br>
-                <textarea id="message" name="message" rows="4" required placeholder=""></textarea>
-                <!--The name attribute is needed to reference the form data after the form is submitted (if you omit the name attribute, no data from the text area will be submitted).
-                    The id attribute is needed to associate the text area with a label. 
-                    Tip: Always add the <label> tag for best accessibility practices!-->
-            </div>
-            <div class="button">
+
+
+
+
+
+
+
+
+
+            <!-- <div class="button">
                 <button><b>send message</b><button>
-            </div>
+            </div> -->
 
             </form>
-        <!-- </div> -->
+            <!-- </div> -->
 
         </div>
-        <div class="footer">
+        <!-- <div class="footer">
             <div class="social-media-container">
                 <a href="https://www.linkedin.com/in/neetumehta510/" target="_blank"><i
                         class="fa-brands fa-linkedin"></i></a>
@@ -68,8 +101,8 @@
                         class="fa-brands fa-facebook"></i></a>
                 <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
             </div>
-            <div class="email-container"><a href="mailto:neetumehta510@gmail.com">neetumehta510@gmail.com</a></div>
-        </div>
+            <div class="email-container"><a href="mailto:neetumehta510@gmail.com">neetumehta510@gmail.com</a></div> -->
+    </div>
     </div>
 </body>
 
